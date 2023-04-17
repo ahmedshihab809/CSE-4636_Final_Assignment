@@ -10,7 +10,7 @@ import jakarta.ws.rs.core.MediaType;
 @Path("/students")
 public class StudentBeanResource {
 
-    @PersistenceContext(unitName = "myPersistenceUnit")
+    @PersistenceContext(unitName = "shihab_student_pu")
     private EntityManager em;
 
     @POST

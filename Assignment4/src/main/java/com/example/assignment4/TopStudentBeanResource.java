@@ -13,7 +13,7 @@ import java.util.*;
 @Path("/topstudent")
 public class TopStudentBeanResource {
 
-    @PersistenceContext(unitName = "myPersistenceUnit")
+    @PersistenceContext(unitName = "shihab_student_pu")
     private EntityManager em;
 
     @GET
